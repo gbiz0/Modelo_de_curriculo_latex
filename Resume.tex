@@ -1,0 +1,118 @@
+\documentclass[16pt]{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\renewcommand{\maketitle}
+{
+  \begin{center}
+    \Huge\bfseries
+    \textsf{\textbf{\thetitle}}
+
+    \setstretch{1.25}
+    \Large
+    \textsf{\theauthor}
+  \end{center}
+  \normalsize
+  \begin{minipage}[t]{0.5\linewidth}
+    Website:\hspace{0.2em}\url{https://gbiz0.github.io}
+
+    Localização:\hspace{0.2em}Fernand\'opolis, SP, Brazil
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.5\linewidth}
+    \hfill
+    Email:\hspace{0.2em}gustavobizo@protonmail.com
+
+    \hfill
+    Telefone/Celular:\hspace{0.2em}+55 (17) 99764-8231
+  \end{minipage}
+}
+
+\titleformat{\section}
+{\huge\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+\begin{document}
+  \thispagestyle{empty}
+  \title{Desenvolvedor Web}
+  \author{Gustavo Bizo Jardim}
+  \maketitle
+  \section{Habilidades Técnicas}
+    \begin{minipage}[t]{0.47\linewidth}
+      \subsection{Linguagens de Programação}
+        Java, Java Sever Page, Javascript.\\
+      \subsection{Linguagens para Script}
+        Python, SQL.
+    \end{minipage}
+    \hfill\vline\hfill
+    \begin{minipage}[t]{0.5\linewidth}
+      \subsection{Linguagens de Marcação}
+        HTML, CSS.\\
+    \end{minipage}
+  \section{Habilidades Gerais}
+    \begin{minipage}[t]{0.47\linewidth}
+      \subsection{Pessoal}
+        \begin{itemize}
+          \item{Boa comunicação.}
+          \item{Boa gestão de tempo / recursos.}
+          \item{Estável sob pressão.}
+          \item{Curva de aprendizagem / adaptação rápida.}
+        \end{itemize}
+    \end{minipage}
+    \hfill\vline\hfill
+    \begin{minipage}[t]{0.5\linewidth}
+      \subsection{Idiomas}
+        \begin{itemize}
+          \item{Inglês\hspace{2em}- Intermediário.}
+          \item{Espanhol\hspace{1.84em}- Intermediário.}
+        \end{itemize}
+    \end{minipage}
+  \section{Projetos}
+    \begin{minipage}[t]{0.47\linewidth}
+      \subsection{Website}
+        Meu site pessoal usado como portifólio dos meus trabalhos.\\
+
+        \url{https://github.com/gbiz0/my-website}\\
+    \end{minipage}
+    \hfill\vline\hfill
+    \begin{minipage}[t]{0.5\linewidth}
+      \subsection{CarRepairShopDB}
+        Um aplicativo de banco de dados implementando uma oficina mecânica.\\
+
+        \url{https://github.com/gbiz0/CarRepairShopDB}\\
+
+    \end{minipage}
+  \section{Educação}
+    \begin{minipage}[t]{0.47\linewidth}
+      \subsection{Técnico em Informatica para a Internet}
+        ETEC Professor Armando José Farinazzo.\\
+        2020 - Cursando.\\
+      \subsection{Ensino Médio}
+        ETEC Professor Armando José Farinazzo.\\
+        2020 - Cursando.\\
+    \end{minipage}
+    \hfill\vline\hfill
+    \begin{minipage}[t]{0.5\linewidth}
+      \subsection{Informática Básica}
+        Microlins\\
+        2017 - 2019.\\
+      \subsection{Espanhol}
+        Centro de Línguas\\
+        2018 - 2019.
+      \subsection{Inglês}
+        CNM\\
+        2020 - Cursando.
+    \end{minipage}
+\end{document}
