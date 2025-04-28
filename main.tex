@@ -1,0 +1,146 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape SEU NOME COMPLETO AQUI} \\ \vspace{1pt}
+    \small TELEFONE $|$ \href{mailto:seuemail@exemplo.com}{\underline{seuemail@exemplo.com}} $|$ 
+    \href{https://linkedin.com/in/seuperfil}{\underline{linkedin.com/in/seuperfil}} $|$
+    \href{https://github.com/seuusuario}{\underline{github.com/seuusuario}}
+\end{center}
+\begin{center}
+\small{CIDADE, ESTADO, PAÍS}    
+\end{center}
+
+\section{Educação}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NOME DA INSTITUIÇÃO}{LOCALIZAÇÃO}
+      {NOME DO CURSO}{Mês/Ano de Início -- Mês/Ano de Conclusão}
+    \resumeSubheading
+      {OUTRA INSTITUIÇÃO (opcional)}{LOCALIZAÇÃO}
+      {CURSO TÉCNICO OU OUTRA FORMAÇÃO}{Mês/Ano de Início -- Mês/Ano de Conclusão}
+  \resumeSubHeadingListEnd
+
+\section{Experiência}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {NOME DO CARGO}{PERÍODO (ex: Jan/2022 -- Dez/2022)}
+      {NOME DA EMPRESA}{Localização}
+      \resumeItemListStart
+        \resumeItem{Descreva aqui suas principais atividades, projetos ou resultados alcançados nesse trabalho.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {OUTRO CARGO (opcional)}{PERÍODO}
+      {NOME DA EMPRESA}{Localização}
+      \resumeItemListStart
+        \resumeItem{Descreva aqui outra experiência de trabalho, se aplicável.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projetos}
+    \resumeProjectHeading
+      {\textbf{NOME DO PROJETO} $|$ \emph{Tecnologias usadas}}{\href{URLdoProjeto}{\underline{Link do Projeto}}}
+      \resumeItemListStart
+        \resumeItem{Descreva resumidamente o projeto, o objetivo e as tecnologias utilizadas.}
+    \resumeItemListEnd
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{OUTRO PROJETO (opcional)} $|$ \emph{Tecnologias usadas}}{\href{URLdoProjeto}{\underline{Link do Projeto}}}
+      \resumeItemListStart
+        \resumeItem{Descreva resumidamente este outro projeto.}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Idiomas}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Idioma 1}{: Nível (Ex: Fluente, Intermediário)} \\
+     \textbf{Idioma 2 (opcional)}{: Nível} \\
+    }}
+ \end{itemize}
+
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Linguagens de Programação}{: Liste aqui as linguagens que você conhece (ex: Java, Python, JavaScript, etc)} \\
+     \textbf{Frameworks e Bibliotecas}{: Liste frameworks e bibliotecas que domina (ex: React, Angular, Spring Boot, etc)} \\
+     \textbf{Ferramentas e Plataformas}{: Liste ferramentas e serviços que conhece (ex: Git, Docker, AWS, etc)} }}
+ \end{itemize}
+
+\end{document}
